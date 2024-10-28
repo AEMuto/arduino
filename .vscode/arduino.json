@@ -1,0 +1,6 @@
+{
+    "sketch": "shift_register/shift_register.ino",
+    "configuration": "cpu=atmega2560",
+    "board": "arduino:avr:mega",
+    "port": "/dev/ttyACM0"
+}
