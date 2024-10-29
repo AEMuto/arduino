@@ -1,5 +1,5 @@
 {
-    "sketch": "shift_register/shift_register.ino",
+    "sketch": "07-traffic_lights/07-traffic_lights.ino",
     "configuration": "cpu=atmega2560",
     "board": "arduino:avr:mega",
     "port": "/dev/ttyACM0"
