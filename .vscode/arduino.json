@@ -1,5 +1,5 @@
 {
-    "sketch": "09-electronic_dice/09-electronic_dice.ino",
+    "sketch": "11-light_detector/11-light_detector.ino",
     "configuration": "cpu=atmega2560",
     "board": "arduino:avr:mega",
     "port": "/dev/ttyACM0"

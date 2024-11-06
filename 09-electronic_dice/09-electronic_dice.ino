@@ -1,7 +1,8 @@
 /***********************/
 /* THE ELECTRONIC DICE */
 /***********************/
-
+#include <Arduino.h>
+#include <avr/io.h>
 #define WAIT_TIME 20 // Wait time in milliseconds
 
 // int pips[6][7] = {
