@@ -1,5 +1,5 @@
 {
-    "sketch": "14-lcd_screen/14-lcd_screen.ino",
+    "sketch": "14-tft_lcd_screen/14-tft_lcd_screen.ino",
     "configuration": "cpu=atmega2560",
     "board": "arduino:avr:mega",
     "port": "/dev/ttyACM0"
