@@ -1,5 +1,5 @@
 
-int pinArray[7] = {42,43,44,45,46,47,48};
+int pinSegments[7] = {42,43,44,45,46,47,48};
 
 int segments[10][7] = {
 //    a, b, c, d, e, f, g
@@ -31,7 +31,7 @@ int bitSegments[10] = {
 void setup(){
     Serial.begin(9600);
     for (int i = 0; i < 7; i++)
-        pinMode(pinArray[i], OUTPUT);
+        pinMode(pinSegments[i], OUTPUT);
 }
 
 void loop(){
@@ -44,7 +44,7 @@ void loop(){
         // bit array version
         for (int j = 6; j >= 0; j--) {
             int value = bitRead(bitSegments[i], j);
-            digitalWrite(pinArray[6-j], value == 1 ? HIGH : LOW);
+            digitalWrite(pinSegments[6-j], value == 1 ? HIGH : LOW);
             Serial.print(value);
         }
         Serial.println();
